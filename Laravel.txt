@@ -6,3 +6,27 @@ Genarate encription key
 -------------------------------
 php artisan key:generate
 
+
+Install Migration (First have to configure database)
+------------------------------
+php artisan migrate:install
+
+Make new migration 
+------------------------------
+php artisan make:migration create_tabelName_table 
+OR => php artisan make:migration create_tabelName_table --create=table_name
+
+Run Migration
+------------------------------
+php artisan migrate
+
+Create new Controller 
+--------------------------------
+php artisan make:controller ControllerName
+
+Create new Model 
+--------------------------------
+php artisan make:model Employee
+
+
+
