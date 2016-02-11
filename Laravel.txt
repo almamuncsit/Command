@@ -23,6 +23,9 @@ php artisan migrate
 Create new Controller 
 --------------------------------
 php artisan make:controller ControllerName
+php artisan make:controller ControllerName --resource
+php artisan controller:make ControllerName --only=index,show
+php artisan controller:make ControllerName --except=index
 
 Create new Model 
 --------------------------------
