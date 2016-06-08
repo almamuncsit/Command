@@ -13,8 +13,8 @@ php artisan migrate:install
 
 <h3>  Make new migration </h3> 
 ------------------------------
-php artisan make:migration create_tabelName_table 
-OR => php artisan make:migration create_tabelName_table --create=table_name
+php artisan make:migration create_tabelName_table <br/>
+OR => php artisan make:migration create_tabelName_table --create=table_name  <br/>
 
 <h3> Run Migration </h3> 
 ------------------------------
