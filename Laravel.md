@@ -22,14 +22,14 @@ php artisan migrate
 
 <h3>  Create new Controller </h3> 
 --------------------------------
-php artisan make:controller ControllerName
-php artisan make:controller ControllerName --resource
-php artisan controller:make ControllerName --only=index,show
-php artisan controller:make ControllerName --except=index
+php artisan make:controller ControllerName  <br/>
+php artisan make:controller ControllerName --resource  <br/>
+php artisan controller:make ControllerName --only=index,show  <br/>
+php artisan controller:make ControllerName --except=index  <br/>
 
 <h3> Create new Model </h3> 
 --------------------------------
-php artisan make:model Employee
+php artisan make:model Employee  <br/>
 
 
 
