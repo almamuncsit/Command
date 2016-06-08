@@ -1,33 +1,33 @@
-Create Project :
+<h3> Create Project : </h3>
 ------------------------------
 composer create-project laravel/laravel folder_name
 
-Genarate encription key 
+<h3> Genarate encription key </h3> 
 -------------------------------
 php artisan key:generate
 
 
-Install Migration (First have to configure database)
+<h3> Install Migration (First have to configure database) </h3> 
 ------------------------------
 php artisan migrate:install
 
-Make new migration 
+<h3>  Make new migration </h3> 
 ------------------------------
 php artisan make:migration create_tabelName_table 
 OR => php artisan make:migration create_tabelName_table --create=table_name
 
-Run Migration
+<h3> Run Migration </h3> 
 ------------------------------
 php artisan migrate
 
-Create new Controller 
+<h3>  Create new Controller </h3> 
 --------------------------------
 php artisan make:controller ControllerName
 php artisan make:controller ControllerName --resource
 php artisan controller:make ControllerName --only=index,show
 php artisan controller:make ControllerName --except=index
 
-Create new Model 
+<h3> Create new Model </h3> 
 --------------------------------
 php artisan make:model Employee
 
